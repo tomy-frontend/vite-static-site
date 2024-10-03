@@ -1,0 +1,13 @@
+@use "../global" as global;
+
+.l-inner {
+  --padding-inline: 16px;
+  --max-content-width: 1000px;
+
+  width: min(calc(100% - var(--padding-inline) * 2), var(--max-content-width));
+  margin-inline: auto;
+
+  @include global.mq(md) {
+    --padding-inline: 60px;
+  }
+}
