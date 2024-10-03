@@ -1,2 +1,3 @@
 # vite-static-site
-viteを使用したSass開発環境
+
+vite を使用した Sass 開発環境
