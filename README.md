@@ -1,6 +1,6 @@
 # vite-static-site
 
-Vite と Sass を使用した大規模静的サイト開発環境
+Vite × Sass 大規模静的サイト開発環境
 
 ## 概要
 

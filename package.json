@@ -1,16 +1,16 @@
 {
-  "devDependencies": {
-    "autoprefixer": "^10.4.20",
-    "cssnano": "^7.0.6",
-    "glob": "^11.0.0",
-    "sass": "^1.79.4",
-    "terser": "^5.34.1",
-    "vite": "^5.4.8"
-  },
+  "name": "your-static-site",
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
+  },
+  "devDependencies": {
+    "glob": "^11.0.0",
+    "sass": "^1.79.4",
+    "vite": "^5.4.8"
   },
   "dependencies": {
     "gsap": "^3.12.5"
